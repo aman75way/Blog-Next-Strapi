@@ -80,17 +80,4 @@ yarn dev
 
 - Uses **secure, HTTP-only cookies** to store JWT tokens.
 - Implements **server-side validation** using Zod.
-- Disables `localStorage` usage for security.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contributors
-
-- [Your Name](https://github.com/yourgithub)
-
----
-
-This README provides a clear overview of the authentication system. Let me know if you want any modifications! 🚀
 
