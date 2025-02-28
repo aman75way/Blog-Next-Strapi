@@ -22,6 +22,12 @@ This project is a **Next.js authentication system** integrated with **Strapi.js*
 
 ## Installation
 
+
+### NODE REQUIREMENT
+```bash
+ node <= 20.0.0
+```
+
 ### 1. Clone the Repository
 
 ```bash
@@ -32,23 +38,19 @@ cd <project-folder>
 ### 2. Install Dependencies
 
 ```bash
-npm install
+yarn setup
 ```
 
-### 3. Setup Environment Variables
-
-Create a `.env.local` file in the root directory and add the following:
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:1337
-HOST=localhost
-NODE_ENV=development
-```
-
-### 4. Run the Application
+### 3. Seed current data
 
 ```bash
-npm run dev
+yarn seed
+```
+
+### 4. Run the Application | BOTH frontend and backend
+
+```bash
+yarn dev
 ```
 
 ## Authentication Workflow
